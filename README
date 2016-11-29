@@ -1,3 +1,7 @@
 1：需要将项目空间放到GOPATH的路径下
 2：安装go-sql-driver/mysql
 在phpstorm工具的run command中输入github.com/go-sql-driver/mysql安装，直到在GOPAH下出现github.com/go-sql-driver/mysql,说明安装才成功
+
+
+1：从github上找到mahonia（googlecode上拿不到），然后在sanjia的账号上import该mahonia
+2：在windows平台的命令行上执行git clone https://github.com/sanjia/mahonia.git，将该包下载到当前目录下

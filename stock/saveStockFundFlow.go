@@ -1,12 +1,12 @@
 package stock
 import (
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/goquery"
-	"github.com/mahonia"
+	"sanjia/finance/mahonia"
 	"database/sql"
 	"fmt"
 	"strings"
 	"strconv"
+	"sanjia/finance/goquery"
 )
 
 /*
