@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1ed5056-b05b-4a68-87b2-ed07d50b7790" name="Default" comment="增加批处理">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/StatStockFundFlow.go" afterPath="$PROJECT_DIR$/main/StatStockFundFlow.go" />
     </list>
     <ignored path="finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +38,9 @@
       <file leaf-file-name="StatStockFundFlow.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6111111">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#153#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.44444445">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -689,7 +686,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480414032530</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="增加批处理">
+      <created>1480414624549</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1480414624549</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -786,9 +789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#153#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -852,9 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#153#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,11 +1024,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6111111">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#153#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
