@@ -1,0 +1,3 @@
+1：需要将项目空间放到GOPATH的路径下
+2：安装go-sql-driver/mysql
+在phpstorm工具的run command中输入github.com/go-sql-driver/mysql安装，直到在GOPAH下出现github.com/go-sql-driver/mysql,说明安装才成功
