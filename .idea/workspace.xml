@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1ed5056-b05b-4a68-87b2-ed07d50b7790" name="Default" comment="增加goquery和mahonia代码">
+    <list default="true" id="b1ed5056-b05b-4a68-87b2-ed07d50b7790" name="Default" comment="修正bug">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/StatStockFundFlow.go" afterPath="$PROJECT_DIR$/main/StatStockFundFlow.go" />
     </list>
     <ignored path="finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="StatStockFundFlow.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32285115">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5618449">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="e#14#142#0" expanded="true" />
               </folding>
@@ -614,7 +613,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480408191449</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修正bug">
+      <created>1480408342306</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1480408342306</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -672,7 +677,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="调整了一下目录结构" />
     <MESSAGE value="增加goquery和mahonia代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加goquery和mahonia代码" />
+    <MESSAGE value="修正bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -909,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32285115">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.5618449">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#14#142#0" expanded="true" />
           </folding>
