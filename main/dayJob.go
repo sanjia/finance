@@ -3,12 +3,13 @@ package main
 import _ "github.com/go-sql-driver/mysql"
 import (
 	"database/sql"
-	"sanjia/stock"
 	"fmt"
+	"sanjia/finance/stock"
+	"sanjia/finance/util"
 )
 
 func main() {
-	cfg := new(stock.Config)
+	cfg := new(util.Config)
 	cfg.InitConfig("main/app.conf")
 	connectURI := cfg.Read("mysql", "connectURI")
 	var db *sql.DB

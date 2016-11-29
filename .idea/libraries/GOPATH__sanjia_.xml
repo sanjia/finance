@@ -1,21 +1,23 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;sanjia&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../todo" />
-      <root url="file://$PROJECT_DIR$/../gopkg.in" />
-      <root url="file://$PROJECT_DIR$/../WebIM" />
-      <root url="file://$PROJECT_DIR$/../shorturl" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../todo" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../WebIM" />
+      <root url="file://$PROJECT_DIR$/../../shorturl" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../todo" />
-      <root url="file://$PROJECT_DIR$/../gopkg.in" />
-      <root url="file://$PROJECT_DIR$/../WebIM" />
-      <root url="file://$PROJECT_DIR$/../shorturl" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../todo" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../WebIM" />
+      <root url="file://$PROJECT_DIR$/../../shorturl" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
