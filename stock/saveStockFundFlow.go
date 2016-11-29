@@ -57,7 +57,11 @@ func SaveStockFundFlow(db *sql.DB, stockCode string) {
 			fmt.Printf("find exception:%s\r\n", err.Error())
 			return
 		}
-
+		if len(data) <= 13 {
+			fmt.Printf("data invalid\r\n")
+			return
+		}
+		defer stmt.Close()
 		_, err = stmt.Exec(stockCode, data[1],
 			F(data[2]),
 			F(data[3]),
