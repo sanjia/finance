@@ -35,11 +35,13 @@ func SaveStockList(db *sql.DB)  {
 			//保留A股、B股、创业版股票
 			if( strings.HasPrefix(stockCode,"6")|| strings.HasPrefix(stockCode,"0") || strings.HasPrefix(stockCode,"3") ){
 				_,err= stmt.Exec(stockCode,stockName)
+				fmt.Printf("save %s(%s)\r\n",stockName,stockCode)
 				if( err!=nil ) {
 					fmt.Printf("find exception:%s\r\n",err.Error())
 					return ;
 				}
 			}
+			fmt.Printf("ignore %s(%s)\r\n",stockName,stockCode)
 		}
 	})
 }

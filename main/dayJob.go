@@ -17,5 +17,5 @@ func main() {
 	defer db.Close()
 	////保存深市沪市股票列表
 	stock.SaveStockList(db)
-	fmt.Printf("SaveStockList ok")
+	fmt.Printf("SaveStockList ok\r\n")
 }
