@@ -59,8 +59,7 @@ func main() {
 	//保存股票资金流向数据
 	fmt.Printf("start to stat fund flow,stock sum:%d \r\n", len(stockList))
 	for i := 0; i < len(stockList); i++ {
-		fmt.Printf("start to stat fund flow for %s......", stockList[i])
+		fmt.Printf("process:%s (%d/%d)", stockList[i], i, len(stockList))
 		stock.SaveStockFundFlow(db, stockList[i])
-		fmt.Printf("stat %s fund flow finish\r\n ", stockList[i])
 	}
 }
