@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ed5056-b05b-4a68-87b2-ed07d50b7790" name="Default" comment="增加goquery和mahonia代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/StatStockFundFlow.go" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/main.go" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/saveStockFundFlow.go" afterPath="$PROJECT_DIR$/stock/saveStockFundFlow.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/StatStockFundFlow.go" afterPath="$PROJECT_DIR$/main/StatStockFundFlow.go" />
     </list>
     <ignored path="finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="StatStockFundFlow.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4821803">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.32285115">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#14#142#0" expanded="true" />
               </folding>
@@ -74,10 +72,8 @@
         <entry file="file://$PROJECT_DIR$/stock/saveStockFundFlow.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#14#163#0" expanded="true" />
-              </folding>
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,10 +121,7 @@
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
+      <GitPushTagMode />
     </option>
   </component>
   <component name="GradleLocalSettings">
@@ -146,8 +139,8 @@
         <option value="$PROJECT_DIR$/stock/saveStockList.go" />
         <option value="$PROJECT_DIR$/main/dayJob.go" />
         <option value="$PROJECT_DIR$/main/SaveStockFundFlow.go" />
-        <option value="$PROJECT_DIR$/main/StatStockFundFlow.go" />
         <option value="$PROJECT_DIR$/stock/saveStockFundFlow.go" />
+        <option value="$PROJECT_DIR$/main/StatStockFundFlow.go" />
       </list>
     </option>
   </component>
@@ -615,7 +608,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480406539097</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="增加goquery和mahonia代码">
+      <created>1480408191449</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1480408191449</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -727,9 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#163#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -801,9 +798,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#163#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,17 +902,15 @@
     <entry file="file://$PROJECT_DIR$/stock/saveStockFundFlow.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#14#163#0" expanded="true" />
-          </folding>
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4821803">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.32285115">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#14#142#0" expanded="true" />
           </folding>

@@ -11,7 +11,7 @@ import (
 
 func main() {
 	cfg := new(util.Config)
-	cfg.InitConfig("main/app.conf")
+	cfg.InitConfig("app.conf")
 	connectURI := cfg.Read("mysql", "connectURI")
 	var db *sql.DB
 	db, _ = sql.Open("mysql", connectURI)
