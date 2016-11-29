@@ -2,7 +2,7 @@ package stock
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/sanjia/goquery"
-	"github.com/mahonia"
+	"github.com/sanjia/mahonia"
 	"database/sql"
 	"fmt"
 	"strings"
