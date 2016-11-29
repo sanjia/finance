@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1ed5056-b05b-4a68-87b2-ed07d50b7790" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/dayJob.go" afterPath="$PROJECT_DIR$/main/dayJob.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/saveStockList.go" afterPath="$PROJECT_DIR$/stock/saveStockList.go" />
     </list>
     <ignored path="finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -575,7 +573,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480404371181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加goquery和mahonia代码">
+      <created>1480406073841</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1480406073841</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
