@@ -5,6 +5,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/sanjia/goquery"
 	"github.com/sanjia/mahonia"
+	"sanjia/finance/util"
 	"strconv"
 	"strings"
 )
@@ -62,18 +63,18 @@ func SaveStockFundFlow(db *sql.DB, stockCode string) {
 		}
 		defer stmt.Close()
 		_, err = stmt.Exec(stockCode, data[1],
-			F(data[2]),
-			F(data[3]),
-			F(data[4]),
-			F(data[5]),
-			F(data[6]),
-			F(data[7]),
-			F(data[8]),
-			F(data[9]),
-			F(data[10]),
-			F(data[11]),
-			F(data[12]),
-			F(data[13]))
+			util.ToFloat(data[2]),
+			util.ToFloat(data[3]),
+			util.ToFloat(data[4]),
+			util.ToFloat(data[5]),
+			util.ToFloat(data[6]),
+			util.ToFloat(data[7]),
+			util.ToFloat(data[8]),
+			util.ToFloat(data[9]),
+			util.ToFloat(data[10]),
+			util.ToFloat(data[11]),
+			util.ToFloat(data[12]),
+			util.ToFloat(data[13]))
 		if err != nil {
 			//fmt.Printf("find exception:%s\r\n", err.Error())
 			return

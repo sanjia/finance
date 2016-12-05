@@ -7,6 +7,7 @@ import (
 	"github.com/sanjia/mahonia"
 	"io/ioutil"
 	"net/http"
+	"sanjia/finance/util"
 	"strings"
 )
 
@@ -53,7 +54,7 @@ func SaveStockAbstractData(db *sql.DB, stockCode string) {
 		fmt.Printf("find exception:%s\r\n", err.Error())
 		return
 	}
-	_, err = stmt.Exec(F(data[39]), F(data[44]), F(data[45]), F(data[46]), data[2])
+	_, err = stmt.Exec(util.ToFloat(data[39]), util.ToFloat(data[44]), util.ToFloat(data[45]), util.ToFloat(data[46]), data[2])
 	if err != nil {
 		fmt.Printf("find exception:%s\r\n", err.Error())
 		return
