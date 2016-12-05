@@ -20,8 +20,7 @@ func main() {
 
 	arg_num := len(os.Args)
 	if arg_num != 2 {
-		fmt.Errorf("demo:./StatStockFundFlow 600000|ALL|SH|SZ")
-		return
+		os.Args = append(os.Args, "ALL")
 	}
 	var stockList []string
 	if os.Args[1] == "SH" || os.Args[1] == "SZ" || os.Args[1] == "ALL" {
