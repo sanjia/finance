@@ -1,9 +1,9 @@
 package main
 
-import _ "github.com/go-sql-driver/mysql"
 import (
 	"database/sql"
 	"fmt"
+	_ "github.com/go-sql-driver/mysql"
 	"os"
 	"sanjia/finance/stock"
 	"sanjia/finance/util"
