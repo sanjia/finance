@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ed5056-b05b-4a68-87b2-ed07d50b7790" name="Default" comment="增加批处理">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/StockMonitor.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/statStockFundFlowByTick.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sina/statStockFundFlowByTick.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/statStockFundFlowByTick.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/net.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/stringUtil.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/app.conf" afterPath="$PROJECT_DIR$/main/app.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/saveStockAbstractData.go" afterPath="$PROJECT_DIR$/stock/saveStockAbstractData.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/StatStockFundFlow.go" afterPath="$PROJECT_DIR$/main/StatStockFundFlow.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/saveStockFundFlow.go" afterPath="$PROJECT_DIR$/stock/saveStockFundFlow.go" />
     </list>
     <ignored path="finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,9 +29,9 @@
         <entry file="file://$PROJECT_DIR$/stock/statStockFundFlowByTick.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="143" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+              <caret line="142" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
               <folding>
-                <element signature="e#15#129#0" expanded="true" />
+                <element signature="e#15#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,9 +41,9 @@
         <entry file="file://$PROJECT_DIR$/qq/statStockFundFlowByTick.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+              <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
               <folding>
-                <element signature="e#12#126#0" expanded="true" />
+                <element signature="e#12#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/main/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#14#52#0" expanded="true" />
               </folding>
@@ -83,20 +75,30 @@
         <entry file="file://$PROJECT_DIR$/sina/statStockFundFlowByTick.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatStockFundFlow.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatStockFundFlow.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3944827">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <element signature="e#14#147#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveStockFundFlow.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stock/saveStockFundFlow.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.71172416">
+              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,16 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="134" column="13" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theme.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../github.com/tealeg/xlsx/theme.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -175,7 +167,6 @@
         <option value="$PROJECT_DIR$/main/dayJob.go" />
         <option value="$PROJECT_DIR$/main/build.sh" />
         <option value="$PROJECT_DIR$/stock/saveStockList.go" />
-        <option value="$PROJECT_DIR$/stock/saveStockFundFlow.go" />
         <option value="$PROJECT_DIR$/main/test.go" />
         <option value="$PROJECT_DIR$/main/app.conf" />
         <option value="$PROJECT_DIR$/app.conf" />
@@ -189,6 +180,7 @@
         <option value="$PROJECT_DIR$/qq/statStockFundFlowByTick.go" />
         <option value="$PROJECT_DIR$/main/main.go" />
         <option value="$PROJECT_DIR$/main/StatStockFundFlow.go" />
+        <option value="$PROJECT_DIR$/stock/saveStockFundFlow.go" />
       </list>
     </option>
   </component>
@@ -758,7 +750,13 @@
       <option name="project" value="LOCAL" />
       <updated>1480939995002</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="增加批处理">
+      <created>1480940054753</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1480940054753</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1025,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/saveStockFundFlow.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../src/io/ioutil/ioutil.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1173,9 +1164,9 @@
     <entry file="file://$PROJECT_DIR$/stock/statStockFundFlowByTick.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <caret line="142" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
           <folding>
-            <element signature="e#15#129#0" expanded="true" />
+            <element signature="e#15#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1183,7 +1174,7 @@
     <entry file="file://$PROJECT_DIR$/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="e#14#52#0" expanded="true" />
           </folding>
@@ -1201,9 +1192,9 @@
     <entry file="file://$PROJECT_DIR$/qq/statStockFundFlowByTick.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
           <folding>
-            <element signature="e#12#126#0" expanded="true" />
+            <element signature="e#12#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1211,18 +1202,26 @@
     <entry file="file://$PROJECT_DIR$/sina/statStockFundFlowByTick.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/StatStockFundFlow.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3944827">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
             <element signature="e#14#147#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/saveStockFundFlow.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71172416">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

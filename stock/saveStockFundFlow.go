@@ -54,11 +54,11 @@ func SaveStockFundFlow(db *sql.DB, stockCode string) {
 				zhongdan_jinge,zhongdan_jingzhanbi,
 				xiaodan_jinge,xiaodan_jingzhanbi) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`)
 		if err != nil {
-			fmt.Printf("find exception:%s\r\n", err.Error())
+			//fmt.Printf("find exception:%s\r\n", err.Error())
 			return
 		}
 		if len(data) <= 13 {
-			fmt.Printf("data invalid\r\n")
+			//fmt.Printf("data invalid\r\n")
 			return
 		}
 		defer stmt.Close()
@@ -76,7 +76,7 @@ func SaveStockFundFlow(db *sql.DB, stockCode string) {
 			F(data[12]),
 			F(data[13]))
 		if err != nil {
-			fmt.Printf("find exception:%s\r\n", err.Error())
+			//fmt.Printf("find exception:%s\r\n", err.Error())
 			return
 		}
 	})
