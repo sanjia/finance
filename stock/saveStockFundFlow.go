@@ -11,7 +11,7 @@ import (
 )
 
 /*
-	保存股票资金流向数据
+	从东方财富网上获取资金流向数据，并保存到数据库中
 */
 func SaveStockFundFlow(db *sql.DB, stockCode string) {
 	url := "http://data.eastmoney.com/zjlx/" + stockCode + ".html"
