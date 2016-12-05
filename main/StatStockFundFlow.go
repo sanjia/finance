@@ -7,7 +7,6 @@ import (
 	"github.com/sanjia/goquery"
 	"github.com/sanjia/mahonia"
 	"os"
-	"sanjia/finance/stock"
 	"sanjia/finance/util"
 	"strconv"
 	"strings"
@@ -131,6 +130,6 @@ func main() {
 	fmt.Printf("start to stat fund flow,stock sum:%d \r\n", len(stockList))
 	for i := 0; i < len(stockList); i++ {
 		fmt.Printf("process:%s (%d/%d)\r\n", stockList[i], i, len(stockList))
-		stock.SaveStockFundFlow(db, stockList[i])
+		SaveStockFundFlow(db, stockList[i])
 	}
 }
